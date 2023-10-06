@@ -1,10 +1,10 @@
-// deposit somr money
-// determine the number of lines to bet on
-// collect a bet amount
-// spin the slot machine
-// check if the user won
-// give the user there winning
-// play again
+// 1.deposit somr money
+// 2.determine the number of lines to bet on
+// 3.collect a bet amount
+// 4.spin the slot machine
+// 5.check if the user won
+// 6.give the user there winning
+// 7.play again
 
 const prompt = require("prompt-sync")();
 const ROW = 3;
