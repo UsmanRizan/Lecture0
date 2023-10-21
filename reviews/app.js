@@ -65,3 +65,10 @@ prevBtn.addEventListener("click", function () {
   currentItem--;
   showPerson(currentItem);
 });
+randomBtn.addEventListener("click", function () {
+  currentItem = getrandomnumber();
+  showPerson(currentItem);
+});
+function getrandomnumber() {
+  return Math.floor(Math.random() * reviews.length);
+}
